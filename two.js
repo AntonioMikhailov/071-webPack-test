@@ -1,4 +1,4 @@
-function two() { 
-  console.log('two');
- }
- module.exports = two; // не вызываем а передаем
+export let obj = {
+  name: 'Ann',
+  age: 32,
+};
